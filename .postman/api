@@ -5,6 +5,7 @@ id = 81e79952-a8e2-4c9f-8c33-898eece5a472
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"12475957-a73c7fbb-8208-40a0-86f4-5e0b42d8c85a","path":"ApiPythonFlask.json","metaData":{}}
 
 [relations.collections.metaData]
 

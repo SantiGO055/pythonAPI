@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "a73c7fbb-8208-40a0-86f4-5e0b42d8c85a",
+		"name": "ApiPythonFlask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "12475957-a73c7fbb-8208-40a0-86f4-5e0b42d8c85a"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/programming_languages",
+			"id": "67309e58-2455-421c-b308-33761c969686",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Java\", \"publication_year\": 1995, \"contribution\": \"Object-oriented programming language.\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/programming_languages",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"programming_languages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/programming_languages/CObol",
+			"id": "0a36cd79-18d0-4741-8e41-0928dc9d8d44",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/programming_languages/CObol",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"programming_languages",
+						"CObol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/programming_languages/COBOL",
+			"id": "a1150803-2ab5-460a-9840-422da780fc2c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"pruebita\":41}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/programming_languages/COBOL",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"programming_languages",
+						"COBOL"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
